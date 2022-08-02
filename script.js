@@ -11,7 +11,7 @@
 // let test1 = prompt("укажи значение1");
 // // let test2 = prompt("укажи значение2");
 // alert (test1);
-// // alert (test2);
+// // alert (test2);jj
 // alert (typeof test1);
 // test1 = Boolean(test1);
 // alert (test1);
