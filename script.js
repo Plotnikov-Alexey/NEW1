@@ -154,7 +154,7 @@
 // let x;
 // let n;
 // pow(x,n);
-let sayHi = function() {
-  alert( "Привет" );
-};
-alert( sayHi );
+// let sayHi = function() {
+//   alert( "Привет" );
+// };
+// alert( sayHi );
