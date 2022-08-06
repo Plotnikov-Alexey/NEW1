@@ -157,4 +157,19 @@
 // let sayHi = function() {
 //   alert( "Привет" );
 // };
-// alert( sayHi );
+//alert( sayHi );
+//let  age = prompt("Сколько лет?");
+// function checkAge() {
+//    let  age = prompt("Сколько лет?");
+//    //return (age > 18) ? true: false;//1 вариант
+//    return (age > 18) || false;//второй вариант
+//  };
+// //checkAge();
+//alert(checkAge());
+let  age = prompt("Сколько лет?");
+
+let checkAge = ()=> (age > 18) || false
+alert(checkAge());
+//let checkAge = ()
+
+//let checkAge = (age)=>
