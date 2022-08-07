@@ -147,29 +147,55 @@
 // };
 // min (a, b);
 
-// function pow() {
-//    x = +prompt("Введите x");
-//    n = +prompt("Введите n");
-//   return alert(x**n) };
-// let x;
-// let n;
-// pow(x,n);
-// let sayHi = function() {
-//   alert( "Привет" );
-// };
-//alert( sayHi );
-//let  age = prompt("Сколько лет?");
-// function checkAge() {
-//    let  age = prompt("Сколько лет?");
-//    //return (age > 18) ? true: false;//1 вариант
-//    return (age > 18) || false;//второй вариант
-//  };
-// //checkAge();
-//alert(checkAge());
-let  age = prompt("Сколько лет?");
-
-let checkAge = ()=> (age > 18) || false
-alert(checkAge());
-//let checkAge = ()
-
+// function pow() { x = +prompt("Введите x"); n = +prompt("Введите n"); return
+// alert(x**n) }; let x; let n; pow(x,n); let sayHi = function() { alert(
+// "Привет" ); }; //alert( sayHi ); //let  age = prompt("Сколько лет?");
+// function checkAge() { let  age = prompt("Сколько лет?"); //return (age > 18)
+// ? true: false;//1 вариант return (age > 18) || false;//второй вариант };
+// //checkAge(); //alert(checkAge()); let  age = prompt("Сколько лет?"); // let
+// checkAge = ()=> (age > 18) || false alert(checkAge()); dddd //let checkAge =
+// ()
 //let checkAge = (age)=>
+
+/*let user={};
+user.name = "John";
+user.surname = "Smith";
+user.name = "Pete";
+delete user.name;*/
+
+/*function isEmpty(obj){
+  //let obj = {};
+  let key;
+  for(key in obj){
+  //  alert(key);
+  };
+  return (key===undefined) ? true:
+                            false;
+}
+let schedule = {dd:2};
+alert( isEmpty(schedule) );*/
+
+/*let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+};
+//let sum = salaries.John + salaries.Pete + salaries.Ann;
+let sum;
+  for(let key in salaries){
+    sum += salaries[key];
+  }
+alert(sum);*/
+//if (typeof obj[key] === Number) {alert (obj[key])}
+
+/*function multiplyNumeric(obj) {
+  for (let key in obj){
+   if (typeof obj[key] === "number") {alert(obj[key]*2)}
+  }
+};
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+multiplyNumeric(menu);*/
