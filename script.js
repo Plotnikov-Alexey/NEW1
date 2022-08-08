@@ -202,33 +202,37 @@ multiplyNumeric(menu);*/
 
 let user = {dom:1,
             obj:{rt1:2}};
+let clone ={};
+clone.dom = user.dom;
+
+clone.obj.rt1 = user.obj.rt1;
 // for(let keyu in user){alert(keyu);
 //                       alert(user[keyu]);}
-let clone ={};
-let pod_clone ={};
-
-for(let key in user ){
-      if (typeof user[key] === "object")
-         {
-          for(let key2 in user[key]) {
-           // {alert(key);
-           //  alert(user[key]);
-           //alert(key2)
-            // clone[key] = user[key];
-             pod_clone[key2] = key[key2];
-             //clone[key] = user[pod_clone];
-             }
-         }
-     else
-         {clone[key] = user[key];}
-  };
-//for(let keys in clone){
-// alert(keys);
-// alert(clone[keys]);
-//};
-//clone.dom++;
-//clone.obj.rt1++;
+// let clone ={};
+// let pod_clone ={};
+//
+// for(let key in user ){
+//       if (typeof user[key] === "object")
+//          {
+//           for(let key2 in user[key]) {
+//            // {alert(key);
+//            //  alert(user[key]);
+//            //alert(key2)
+//             // clone[key] = user[key];
+//              pod_clone[key2] = key[key2];
+//              //clone[key] = user[pod_clone];
+//              }
+//          }
+//      else
+//          {clone[key] = user[key];}
+//   };
+// //for(let keys in clone){
+// // alert(keys);
+// // alert(clone[keys]);
+// //};
+// clone.dom++;
+// clone.obj.rt1++;
 alert (user.dom);
 alert (user.obj.rt1);
 alert (clone.dom);
-alert (pod_clone.rt1);
+alert (user.obj.rt1);
