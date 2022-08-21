@@ -200,7 +200,6 @@ let menu = {
 };
 multiplyNumeric(menu);*/
 
-<<<<<<< HEAD
 // let user = {dom:1,
 //             obj:{rt1:2}};
 // let clone ={};
@@ -208,15 +207,6 @@ multiplyNumeric(menu);*/
 //
 // clone.obj.rt1 = user.obj.rt1;
 // // for(let keyu in user){alert(keyu);
-=======
-let user = {dom:1,
-            obj:{rt1:2}};
-let clone ={};
-clone.dom = user.dom;
-
-clone.obj.rt1 = user.obj.rt1;
-// for(let keyu in user){alert(keyu);
->>>>>>> 670825b24110b83f3ee478f8928dbfa2047f1712
 //                       alert(user[keyu]);}
 // let clone ={};
 // let pod_clone ={};
@@ -242,7 +232,6 @@ clone.obj.rt1 = user.obj.rt1;
 // //};
 // clone.dom++;
 // clone.obj.rt1++;
-<<<<<<< HEAD
 // alert (user.dom);
 // alert (user.obj.rt1);
 // alert (clone.dom);
@@ -251,9 +240,3 @@ clone.obj.rt1 = user.obj.rt1;
 // b = Boolean(alert("d"));
 // alert (b);
 alert( alert(1) && alert(2) );
-=======
-alert (user.dom);
-alert (user.obj.rt1);
-alert (clone.dom);
-alert (user.obj.rt1);
->>>>>>> 670825b24110b83f3ee478f8928dbfa2047f1712
