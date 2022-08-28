@@ -239,4 +239,57 @@ multiplyNumeric(menu);*/
 // let b;
 // b = Boolean(alert("d"));
 // alert (b);
-alert( alert(1) && alert(2) );
+//alert( alert(1) && alert(2) );
+//alert ("a">"c");
+                                   //Повторение
+// let name = prompt("Какое официальное название Javascript?");
+// if (name == "hui") {alert ("Верно")}
+// else {alert ("неправильно")};
+
+// let name = prompt("Какое официальное название Javascript?");
+// (name == "hui")? alert ("Верно"):
+//                  alert ("неправильно");
+
+// let value = +prompt("Введите число");
+// if (value > 0){alert("1")}
+// else if  (value < 0){alert("-1")}
+// else {alert("0")};
+
+// let result = (a + b < 4)?"Мало":
+// "Vyjuj"
+
+//if (age<=14 && age>=90)
+
+// let name = prompt("Кто там?");
+// if (name === null || name == "") {alert("Отменено");}
+// else if (name !== "Admin") {alert("Я вас не знаю");}
+// else  {
+//        let password = prompt("Пароль?");
+//        if (password === null || password == "") {alert("Отменено")}
+//        else if (password !== "i") {alert("Неверный пароль")}
+//        else {alert("Здравствуйте!")}
+//      };
+
+// for(let i = 2; i < 11; ++i){
+//   if (i % 2 == 0) {alert(i)}
+// };
+
+// let i =0;
+// while(i<3){
+//   alert(i)
+//   i++;
+// }
+
+// let value=0;
+// while (+value <= 100 && value != null){
+//   value = prompt("Введите число больше 100");
+// };
+
+// let value = +prompt("Введите сисло");
+// lable:
+// for(let i=2; i<=value; i++ ) {
+//     for (let n = 2; n < i; n++){
+//     if (i % n == 0){continue lable}
+//     };
+//     alert(i);
+// };
