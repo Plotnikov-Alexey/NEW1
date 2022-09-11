@@ -293,3 +293,102 @@ multiplyNumeric(menu);*/
 //     };
 //     alert(i);
 // };
+
+// function checkAge(age) {
+//   1// if (age > 18) {
+//   //   return true;
+//   // } else {
+//   //   return confirm('Родители разрешили?');
+//   // }
+//   2//return ((age > 18)||confirm('Родители разрешили?'));
+//   3// return  ((age > 18) ? true:
+//   //                      confirm('Родители разрешили?'));
+// }
+// let age = prompt('Сколько вам лет?', 18);
+// alert(checkAge(age));
+
+// function min(a, b){
+//   if (a > b){
+//     alert(b)
+//   }
+//   else {alert(a)}
+// }
+// let a = prompt("Введи а");
+// let b = prompt("Введи b");
+// min(a, b);
+//1ИЛИ
+//  function min(a, b){
+//    if (a > b){
+//      return b
+//    }
+//    else {return a}
+//  }
+// let a = prompt("Введи а");
+// let b = prompt("Введи b");
+// alert(min(a, b));
+
+// function pow(x,n){
+//   return (x**n);
+// };
+// let x;
+// do{x = +prompt("Введи x")}
+// while(x < 1) ;
+// console.log(x);
+// let n = +prompt("Введи n");
+// console.log(n);
+// alert( pow(x,n) );
+
+//alert(+"+49");
+
+// let user = {};
+// user.name = "John";
+// user["urname"] = "Smith";
+// user.name = "Pete";
+// for (let key in user){
+//   alert(key);
+//   alert(user[key])
+// }
+
+// let schedule = {};
+// function isEmpty(schedule){
+//   let key;
+//   for (key in schedule){};
+//   return (key === undefined)? true:
+//                               false;
+// }
+// alert (isEmpty(schedule));
+
+
+// function call_zp(salaries){
+//   let summ = 0;
+//   for (let key in salaries){
+//     summ = summ + salaries[key]
+//   };
+//   return summ;
+// }
+// let salaries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130
+// };
+// alert(call_zp(salaries));
+
+             //Добавить свойства
+let archive = {};
+let qwestion;
+let name;
+let obj_name;
+do {
+  qwestion = confirm("Добавить пользователя?");
+  if (qwestion == true){
+    name = prompt("Добавь имя");
+    do{obj_name = prompt("Добавь сумму")}
+    while(+obj_name !== +obj_name || obj_name == null || obj_name == "");//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    archive[name] = obj_name;
+  }
+} while (qwestion == true);
+
+for (let key in archive){
+   alert(key);
+   alert(archive[key])
+ }
