@@ -374,21 +374,55 @@ multiplyNumeric(menu);*/
 // alert(call_zp(salaries));
 
              //Добавить свойства
-let archive = {};
-let qwestion;
-let name;
-let obj_name;
-do {
-  qwestion = confirm("Добавить пользователя?");
-  if (qwestion == true){
-    name = prompt("Добавь имя");
-    do{obj_name = prompt("Добавь сумму")}
-    while(+obj_name !== +obj_name || obj_name == null || obj_name == "");//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    archive[name] = obj_name;
-  }
-} while (qwestion == true);
+// let archive = {};
+// let qwestion;
+// let name;
+// let obj_name;
+// do {
+//   qwestion = confirm("Добавить пользователя?");
+//   if (qwestion == true){
+//     name = prompt("Добавь имя");
+//     do{obj_name = prompt("Добавь сумму")}
+//     while(+obj_name !== +obj_name || obj_name == null || obj_name == "");//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//     archive[name] = obj_name;
+//   }
+// } while (qwestion == true);
+//
+// for (let key in archive){
+//    alert(key);
+//    alert(archive[key])
+//  }
 
-for (let key in archive){
-   alert(key);
-   alert(archive[key])
- }
+// function multiplyNumeric(obj){
+//   for (let key in obj){
+// //    alert(typeof obj[key]);
+//     if(typeof(obj[key]) === "number"){ obj[key] *= 2};
+//   }
+// };
+// let menu = {
+//   width: 200,
+//   height: 700,
+//   title: "My menu"
+// };
+// // for (let key in menu){
+// //   alert(key);
+// //   alert(menu[key])
+// // };
+// multiplyNumeric(menu);
+// for (let key in menu){
+//   alert(key);
+//   alert(menu[key]);
+// }
+
+//alert( 0.2.toFixed(20) ); // 0.10000000000000000555
+let y = 6.35;//6.3499
+
+
+//alert( y.toFixed(20) );
+// y = y*100;//634.99
+// y = Math.round(y);//635
+// y = y/10;//63.5
+// y = Math.round(y);//64
+// y = y/10
+// = +y.toFixed(1);
+alert( (y*10).toFixed(20) );
